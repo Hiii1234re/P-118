@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(90, 201, 90);
+    text-align: center;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: darkgreen;
+    text-align: center;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    margin-top: 130px;
+    border-radius: 20px;
+    border: 5px solid white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px black;
+    }
+    to{
+        box-shadow: 1px 1px 38px white;
+    }
+}
+#score{
+    font-size: 35px;
+    float: left;
+    margin-left: 25px;
+}
+#time{
+    font-size:35px;
+    float: right;
+    margin-right: 25px;
+}
